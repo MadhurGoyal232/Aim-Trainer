@@ -1,0 +1,78 @@
+body{
+
+    background: rgb(43, 135, 209)
+}
+
+#circle{
+
+    height : 100px;
+    width : 100px;
+    background-color: rgb(148, 192, 227);
+    border-radius: 50%;
+    cursor : pointer;
+    position : relative;
+    border : 2px solid white
+}
+
+#line1{
+
+    border: 1.5px solid white;
+    position : relative;
+    top : 50px;
+    /* height: 20px;
+    width: 20px; */
+
+}
+#texta{
+
+    color: white;
+    font-size: 50px;
+    left:440px;
+    position: relative;
+}
+
+#val{
+
+    color: white;
+    font-size: 45px;
+    left:690px;
+    position: absolute;
+    top : 15px;
+}
+#line2{
+
+    border: 1.5px solid white;
+    position : relative;
+    top : 45px;
+    transform-origin: center;
+    transform : rotate(90deg)
+    /* height: 20px;
+    width: 20px; */
+
+}
+#circle2{
+
+    height : 60px;
+    width : 60px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    border : 2px solid white;
+
+    top : 12px;
+    /* cursor : pointer */
+}
+
+#circle3{
+
+    height : 25px;
+    width : 25px;
+    margin: auto;
+    /* background-color:  rgb(148, 192, 227);; */
+    border-radius: 50%;
+    position: relative;
+    border : 2px solid white;
+
+    top : 17px;
+
+}
